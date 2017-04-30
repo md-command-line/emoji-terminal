@@ -1,0 +1,9 @@
+atom
+firefox
+google-chrome
+java
+kindle
+opera
+slack
+sublime-text
+virtualbox
