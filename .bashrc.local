@@ -1,0 +1,8 @@
+eval "$(/Users/michaeldimmitt/dotmatrix/hr/bin/hr init -)"
+# second iteration.
+PS1="\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\] 
+dir: \w\n"
+
+# first iteration.
+#PS1="\u@\h:
+#\w\n$"
