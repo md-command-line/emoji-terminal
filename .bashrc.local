@@ -1,8 +1,11 @@
 eval "$(/Users/michaeldimmitt/dotmatrix/hr/bin/hr init -)"
-# second iteration.
 PS1="\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\] 
 dir: \w\n"
-
-# first iteration.
+#\e[0;31m\$"
 #PS1="\u@\h:
 #\w\n$"
+#PROMPT_COMMAND="echo"
+#PS1="\w$PS1\n"
+#\w\n\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\] 
+
+alias rebasepush='git commit --amend --no-edit; git rebase --continue; git push --force-with-lease;'
