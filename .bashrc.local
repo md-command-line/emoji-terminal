@@ -1,5 +1,5 @@
 eval "$(/Users/michaeldimmitt/dotmatrix/hr/bin/hr init -)"
-PS1="\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\] 
+PS1="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\] 
 dir: \w\n"
 #\e[0;31m\$"
 #PS1="\u@\h:
