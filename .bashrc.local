@@ -1,11 +1,12 @@
-eval "$(/Users/michaeldimmitt/dotmatrix/hr/bin/hr init -)"
 PS1="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\] 
 dir: \w\n"
-#\e[0;31m\$"
-#PS1="\u@\h:
-#\w\n$"
-#PROMPT_COMMAND="echo"
-#PS1="\w$PS1\n"
-#\w\n\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\] 
+
+VISUAL=vim
+EDITOR="$VISUAL"
+LESS="FRX"
+RI="--format ansi -T"
+PSQL_EDITOR='vim -c"setf sql"'
+CLICOLOR=1
+LSCOLORS=gxgxcxdxbxegedabagacad
 
 alias rebasepush='git commit --amend --no-edit; git rebase --continue; git push --force-with-lease;'
