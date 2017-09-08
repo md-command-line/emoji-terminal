@@ -1,5 +1,26 @@
-PS1="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\] 
-dir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🌻 ; else echo 🌦  ; fi \`\]\ndir: \w\n" 
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\]\ndir: \w\n" 
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🐨 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🐼 ; else echo 😞 ; fi \`\]\ndir: \w\n" 
+emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🚀 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 😹 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 😂 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤓 ; else echo 🙈 ; fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🐼 ; else echo 🙈 ; fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤖 ; else echo 🤣 ; fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤣 ; else echo 🤖 ; fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤖 ; else echo 🤕 ; fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤣 ; else echo 🤕 ; fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 😐 ; else echo 🤕 ; fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤓 ; else echo 🤕 ; fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🌤 ; else echo 🌦 ; fi \`\]\ndir: \w\n"
+# if you are feeling of the italian variety this afternoon!
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🇮🇹  else; echo 🇫🇷 ;  fi \`\]\ndir: \w\n"
+# if you are feeling of a french disposition today. :)
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🇫🇷  else; echo 🇮🇹 ;  fi \`\]\ndir: \w\n"
+# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo ✌️; else echo  💣 ; fi \`\]\ndir: \w\n"
+ 
+PS1="$emoji"
 
 VISUAL=vim
 EDITOR="$VISUAL"
