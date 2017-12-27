@@ -31,3 +31,4 @@ CLICOLOR=1
 LSCOLORS=gxgxcxdxbxegedabagacad
 
 alias rebasepush='git commit --amend --no-edit; git rebase --continue; git push --force-with-lease;'
+alias gripr="open http://localhost:6419/; grip Readme.md"
