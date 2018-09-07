@@ -1,25 +1,30 @@
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🌻 ; else echo 🌦  ; fi \`\]\ndir: \w\n" 
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🙂 ; else echo 😞 ; fi \`\]\ndir: \w\n" 
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🐨 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🐼 ; else echo 😞 ; fi \`\]\ndir: \w\n" 
-emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🚀 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 😹 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 😂 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤓 ; else echo 🙈 ; fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🐼 ; else echo 🙈 ; fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤖 ; else echo 🤣 ; fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤣 ; else echo 🤖 ; fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤖 ; else echo 🤕 ; fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤣 ; else echo 🤕 ; fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 😐 ; else echo 🤕 ; fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🤓 ; else echo 🤕 ; fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🌤 ; else echo 🌦 ; fi \`\]\ndir: \w\n"
+set t_vb=
+promptString(){
+  emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🚀 ; else echo 🙈 ; fi \`\]\ndir: \w\n" 
+}
+# \[\e[1;34m\] XXX \[\e[0m\] 
+# promptString 🌻  🌦  
+# promptString 🙂  😞 
+# promptString 🐨  🙈 
+# promptString 🐼  😞 
+# promptString 🚀  🙈 
+# promptString 😹  🙈 
+# promptString 😂  🙈 
+# promptString 🤓  🙈 
+# promptString 🐼  🙈 
+# promptString 🤖  🤣 
+# promptString 🤣  🤖 
+# promptString 🤖  🤕 
+# promptString 🤣  🤕 
+# promptString 😐  🤕 
+# promptString 🤓  🤕 
+# promptString 🌤  🌦 
 # if you are feeling of the italian variety this afternoon!
 # emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🇮🇹  else; echo 🇫🇷 ;  fi \`\]\ndir: \w\n"
 # if you are feeling of a french disposition today. :)
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo 🇫🇷  else; echo 🇮🇹 ;  fi \`\]\ndir: \w\n"
-# emoji="\n\e[m[\u]\[\`if [[ \$? == 0 ]]; then echo ✌️; else echo  💣 ; fi \`\]\ndir: \w\n"
- 
+# promptString 🇫🇷  🇮🇹
+# promptString ✌️  💣  
+promptString 🚀  💣  
 PS1="$emoji"
 
 VISUAL=vim
@@ -30,5 +35,3 @@ PSQL_EDITOR='vim -c"setf sql"'
 CLICOLOR=1
 LSCOLORS=gxgxcxdxbxegedabagacad
 
-alias rebasepush='git commit --amend --no-edit; git rebase --continue; git push --force-with-lease;'
-alias gripr="open http://localhost:6419/; grip Readme.md"
