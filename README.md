@@ -23,9 +23,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 
-<table><tr><td align="center"><a href="https://github.com/murjax"><img src="https://avatars0.githubusercontent.com/u/14116496?v=4" width="100px;" alt="Ryan Murphy"/><br /><sub><b>Ryan Murphy</b></sub></a><br /><a href="https://github.com/MichaelDimmitt/emoji-terminal/commits?author=murjax" title="Documentation">📖</a> <a href="#question-murjax" title="Answering Questions">💬</a></td></tr></table>
-
-<table><tr><td align="center"><a href="https://twitter.com/m_dimmitt"><img src="https://avatars1.githubusercontent.com/u/11463275?v=4" width="100px;" alt="michaeldimmitt"/><br /><sub><b>michaeldimmitt</b></sub></a><br /><a href="https://github.com/MichaelDimmitt/emoji-terminal/commits?author=michaeldimmitt" title="Code">💻</a> <a href="https://github.com/MichaelDimmitt/emoji-terminal/commits?author=michaeldimmitt" title="Documentation">📖</a></td></tr></table>
+<table>
+<tr>
+<td align="center"><a href="https://twitter.com/m_dimmitt"><img src="https://avatars1.githubusercontent.com/u/11463275?v=4" width="100px;" alt="michaeldimmitt"/><br /><sub><b>michaeldimmitt</b></sub></a><br /><a href="https://github.com/MichaelDimmitt/emoji-terminal/commits?author=michaeldimmitt" title="Code">💻</a> <a href="https://github.com/MichaelDimmitt/emoji-terminal/commits?author=michaeldimmitt" title="Documentation">📖</a>
+</td>
+<td align="center"><a href="https://github.com/murjax"><img src="https://avatars0.githubusercontent.com/u/14116496?v=4" width="100px;" alt="Ryan Murphy"/><br /><sub><b>Ryan Murphy</b></sub></a><br /><a href="https://github.com/MichaelDimmitt/emoji-terminal/commits?author=murjax" title="Documentation">📖</a> <a href="#question-murjax" title="Answering Questions">💬</a></td>
+</tr>
+</table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
