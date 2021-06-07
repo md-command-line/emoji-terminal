@@ -1,7 +1,11 @@
 ## Setup:
 mac os now defaults to using zsh<br/>
 This ps1 modification currently requires changing terminal to bashrc<br/>
-refer to my setup repo for instructions for details: https://github.com/MichaelDimmitt/bash-profile
+
+#### Change shell to bash:
+```bash
+chsh -s /bin/bash
+```
 
 # Information:
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
@@ -39,3 +43,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## How to undo:
+
+#### Change shell to zsh:
+```bash
+chsh -s /bin/zsh
+```
