@@ -1,3 +1,8 @@
+## Setup:
+mac os now defaults to using zsh<br/>
+This ps1 modification currently requires changing terminal to bashrc<br/>
+refer to my setup repo for instructions for details: https://github.com/MichaelDimmitt/bash-profile
+
 # Information:
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 .bashrc is starting to look pretty cool. :)
